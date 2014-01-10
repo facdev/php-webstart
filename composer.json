@@ -1,0 +1,94 @@
+{
+    "name": "faclib/faclib",
+    "description": "Composer project shortcut with .. for your vendor directory.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "facdev",
+            "role": "Developer"
+        }
+    ],
+    "type":"library",
+    "repositories": {
+        "less": {
+            "type": "package",
+            "package": {
+                "name": "faclib/less",
+                "version": "dev",
+                "source": {
+                    "url": "git://github.com/cloudhead/less.js.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        "twitter-bootstrap": {
+            "type": "package",
+            "package": {
+                "name": "faclib/bootstrap",
+                "version": "dev",
+                "source": {
+                    "url": "git://github.com/twitter/bootstrap.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        "html5-boilerplate": {
+            "type": "package",
+            "package": {
+                "name": "faclib/html5-boilerplate",
+                "version": "dev",
+                "source": {
+                    "url": "git://github.com/h5bp/html5-boilerplate.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        "backbone": {
+            "type": "package",
+            "package": {
+                "name": "faclib/backbone",
+                "version": "dev",
+                "source": {
+                    "url": "git://github.com/documentcloud/backbone.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        "underscore": {
+            "type": "package",
+            "package": {
+                "name": "faclib/underscore",
+                "version": "dev",
+                "source": {
+                    "url": "git://github.com/documentcloud/underscore.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        "knockout": {
+            "type": "package",
+            "package": {
+                "name": "faclib/knockout",
+                "version": "dev",
+                "source": {
+                    "url": "git://github.com/SteveSanderson/knockout.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    },
+    "require": {
+        "faclib/bootstrap": "dev",
+        "faclib/html5-boilerplate" : "dev",
+        "faclib/backbone" : "dev",
+        "faclib/underscore" : "dev",
+        "faclib/less" : "dev",
+        "faclib/knockout" : "dev"
+    }
+}

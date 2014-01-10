@@ -1,2 +1,1 @@
-php-webstart
-============
+Composer project shortcut with ... for your vendor directory.
